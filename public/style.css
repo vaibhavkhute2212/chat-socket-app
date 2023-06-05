@@ -13,7 +13,7 @@ input {
 }
 body {
     line-height: 1.4;
-    color: #333333;
+    color: #ffffff;
     font-family: 'Poppins', Arial, sans-serif;
 }
 h1 {
@@ -23,7 +23,7 @@ label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: #777;
+    color: #120f0f;
 }
 input {
     border: 1px solid #eeeeee;
@@ -53,7 +53,7 @@ button:disabled {
 .sidebar {
     height: 100vh;
     color: rgb(36, 32, 32);
-    background: #aab473;
+    background: linear-gradient(to left, #cceb04, #0ae8f4);
     width: 225px;
     overflow-y: scroll
 }
@@ -63,6 +63,10 @@ button:disabled {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpersonalmarketingdigital.com.br%2Fwp-content%2Fuploads%2F2018%2F05%2Fbackground-whatsapp-7-1536x960.jpg&f=1&nofb=1&ipt=9db6dc407876f136f3f55baac5e9154e5459b1c7050cb724996f22c48c5e54bc&ipo=images');
+    background-size:contain;
+    background-position: center;
+    background-repeat: repeat;
 }
 .chat__messages {
     flex-grow: 1;
@@ -72,6 +76,7 @@ button:disabled {
 /* Message Styles */
 .message {
     margin-bottom: 16px;   
+    
 }
 .message__name {
     font-weight: 600;
@@ -79,7 +84,7 @@ button:disabled {
     margin-right: 8px;
 }
 .message__meta {
-    color: #777;
+    color: #f7ff05;
     font-size: 14px;
 }
 .message a {
@@ -111,7 +116,10 @@ button:disabled {
 /* Join Page Styles */
 
 .join-form {
-    background: #aab473;
+    background-image: url('https://image.freepik.com/free-vector/seamless-pattern-with-social-media-networking-global-internet-communication-chatting-instant-messaging-symbols-white-background-vector-illustration-line-art-style-wallpaper_198278-7649.jpg');
+    
+    background-position: center;
+    background-repeat: repeat;
     width: 100vw;
     height: 100vh;   
     display: flex;
@@ -141,7 +149,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #1507e0;
+    background: #0d0df7e9;
     color: #fff;
     padding: 24px;   
 }
